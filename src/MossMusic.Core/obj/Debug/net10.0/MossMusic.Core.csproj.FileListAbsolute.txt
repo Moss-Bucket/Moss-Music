@@ -1,0 +1,12 @@
+/home/maximl/Projects/Moss-Music/src/MossMusic.Core/bin/Debug/net10.0/MossMusic.Core.deps.json
+/home/maximl/Projects/Moss-Music/src/MossMusic.Core/bin/Debug/net10.0/MossMusic.Core.dll
+/home/maximl/Projects/Moss-Music/src/MossMusic.Core/bin/Debug/net10.0/MossMusic.Core.pdb
+/home/maximl/Projects/Moss-Music/src/MossMusic.Core/obj/Debug/net10.0/MossMusic.Core.GeneratedMSBuildEditorConfig.editorconfig
+/home/maximl/Projects/Moss-Music/src/MossMusic.Core/obj/Debug/net10.0/MossMusic.Core.AssemblyInfoInputs.cache
+/home/maximl/Projects/Moss-Music/src/MossMusic.Core/obj/Debug/net10.0/MossMusic.Core.AssemblyInfo.cs
+/home/maximl/Projects/Moss-Music/src/MossMusic.Core/obj/Debug/net10.0/MossMusic.Core.csproj.CoreCompileInputs.cache
+/home/maximl/Projects/Moss-Music/src/MossMusic.Core/obj/Debug/net10.0/MossMusic.Core.sourcelink.json
+/home/maximl/Projects/Moss-Music/src/MossMusic.Core/obj/Debug/net10.0/MossMusic.Core.dll
+/home/maximl/Projects/Moss-Music/src/MossMusic.Core/obj/Debug/net10.0/refint/MossMusic.Core.dll
+/home/maximl/Projects/Moss-Music/src/MossMusic.Core/obj/Debug/net10.0/MossMusic.Core.pdb
+/home/maximl/Projects/Moss-Music/src/MossMusic.Core/obj/Debug/net10.0/ref/MossMusic.Core.dll

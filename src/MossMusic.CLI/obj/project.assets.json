@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net10.0": {}
+    "net10.0": {
+      "MossMusic.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "compile": {
+          "bin/placeholder/MossMusic.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MossMusic.Core.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "MossMusic.Core/1.0.0": {
+      "type": "project",
+      "path": "../MossMusic.Core/MossMusic.Core.csproj",
+      "msbuildProject": "../MossMusic.Core/MossMusic.Core.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net10.0": []
+    "net10.0": [
+      "MossMusic.Core >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "/home/maximl/.nuget/packages/": {}
@@ -31,7 +50,11 @@
       "frameworks": {
         "net10.0": {
           "targetAlias": "net10.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "/home/maximl/Projects/Moss-Music/src/MossMusic.Core/MossMusic.Core.csproj": {
+              "projectPath": "/home/maximl/Projects/Moss-Music/src/MossMusic.Core/MossMusic.Core.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

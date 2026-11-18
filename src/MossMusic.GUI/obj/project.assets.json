@@ -676,6 +676,16 @@
             "related": ".xml"
           }
         }
+      },
+      "MossMusic.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "compile": {
+          "bin/placeholder/MossMusic.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MossMusic.Core.dll": {}
+        }
       }
     }
   },
@@ -1604,6 +1614,11 @@
         "tmds.dbus.protocol.0.94.1.nupkg.sha512",
         "tmds.dbus.protocol.nuspec"
       ]
+    },
+    "MossMusic.Core/1.0.0": {
+      "type": "project",
+      "path": "../MossMusic.Core/MossMusic.Core.csproj",
+      "msbuildProject": "../MossMusic.Core/MossMusic.Core.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -1612,7 +1627,8 @@
       "Avalonia.Desktop >= 12.1.6",
       "Avalonia.Fonts.Inter >= 12.1.6",
       "Avalonia.Themes.Fluent >= 12.1.6",
-      "AvaloniaUI.DiagnosticsSupport >= 2.2.3"
+      "AvaloniaUI.DiagnosticsSupport >= 2.2.3",
+      "MossMusic.Core >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -1639,7 +1655,11 @@
       "frameworks": {
         "net10.0": {
           "targetAlias": "net10.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "/home/maximl/Projects/Moss-Music/src/MossMusic.Core/MossMusic.Core.csproj": {
+              "projectPath": "/home/maximl/Projects/Moss-Music/src/MossMusic.Core/MossMusic.Core.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
