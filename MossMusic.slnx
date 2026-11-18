@@ -1,0 +1,7 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/MossMusic.CLI/MossMusic.CLI.csproj" />
+    <Project Path="src/MossMusic.Core/MossMusic.Core.csproj" />
+    <Project Path="src/MossMusic.GUI/MossMusic.GUI.csproj" />
+  </Folder>
+</Solution>
